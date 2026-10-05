@@ -58,8 +58,6 @@ Desarrollador enfocado en **automatización de procesos** y **backend**. Conecto
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Mario-IY&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=A855F7&icon_color=22C55E&text_color=C9D1D9&ring_color=A855F7" alt="stats" />
 <img height="170" src="https://streak-stats.demolab.com?user=Mario-IY&hide_border=true&background=0D1117&ring=A855F7&fire=22C55E&currStreakLabel=A855F7&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=6E7681&stroke=30363D" alt="racha" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mario-IY&bg_color=0D1117&color=C9D1D9&line=A855F7&point=22C55E&area=true&area_color=A855F7&hide_border=true&custom_title=Commits%20de%20los%20%C3%BAltimos%2031%20d%C3%ADas" alt="gráfica de actividad" />
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mario-IY/Mario-IY/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mario-IY/Mario-IY/output/snake.svg" />
