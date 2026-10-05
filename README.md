@@ -39,6 +39,11 @@
 <br/><br/>
 
 <img src="https://img.shields.io/badge/n8n-161B22?style=for-the-badge&logo=n8n&logoColor=A855F7" alt="n8n" />
+<img src="https://img.shields.io/badge/webhooks-161B22?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjJDNTVFIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTQuODc2IDEzLjYxYTQgNCAwIDEgMCA2LjEyNCAzLjM5aDYiLz48cGF0aCBkPSJNMTUuMDY2IDIwLjUwMmE0IDQgMCAxIDAgMS45MzQgLTcuNTAyYy0uNzA2IDAgLTEuNDI0IC4xNzkgLTIgLjVsLTMgLTUuNSIvPjxwYXRoIGQ9Ik0xNiA4YTQgNCAwIDEgMCAtOCAwYzAgMS41MDYgLjc3IDIuODE4IDIgMy41bC0zIDUuNSIvPjwvc3ZnPg==" alt="webhooks" />
+<img src="https://img.shields.io/badge/REST_APIs-161B22?style=for-the-badge&logo=swagger&logoColor=A855F7" alt="REST APIs" />
+<img src="https://img.shields.io/badge/Google_Workspace-161B22?style=for-the-badge&logo=google&logoColor=22C55E" alt="Google Workspace" />
+<img src="https://img.shields.io/badge/Jira-161B22?style=for-the-badge&logo=jira&logoColor=A855F7" alt="Jira" />
+<img src="https://img.shields.io/badge/WhatsApp_API-161B22?style=for-the-badge&logo=whatsapp&logoColor=22C55E" alt="WhatsApp API" />
 
 </div>
 
