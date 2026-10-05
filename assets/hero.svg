@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#161B22" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glowP" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22C55E" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="18"/>
+    </clipPath>
+    <path id="w1" d="M750 92 C 790 92, 770 192, 800 192"/>
+    <path id="w2" d="M910 192 C 940 192, 930 92, 960 92"/>
+    <path id="w3" d="M1015 114 C 1015 165, 1105 160, 1105 210"/>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="#0D1117"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <circle cx="180" cy="40" r="260" fill="url(#glowP)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="300" r="240" fill="url(#glowG)">
+      <animate attributeName="opacity" values="1;0.55;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="64" y="70" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="15" fill="#6E7681">~/mario-iy $ ./run --profile</text>
+
+    <text x="62" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="2" fill="#E6EDF3">MARIO</text>
+    <text x="62" y="218" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="2" fill="url(#nameGrad)">IBARRA</text>
+
+    <text x="64" y="262" font-family="Consolas, Menlo, 'Courier New', monospace" font-size="18" fill="#22C55E">&gt; automatización · integraciones · backend<tspan fill="#A855F7">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+
+    <g fill="none" stroke="url(#wire)" stroke-width="2" stroke-linecap="round" opacity="0.55">
+      <use href="#w1"/>
+      <use href="#w2"/>
+      <use href="#w3"/>
+    </g>
+    <g fill="none" stroke="#E6EDF3" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 14" opacity="0.35">
+      <use href="#w1"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></use>
+      <use href="#w2"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></use>
+      <use href="#w3"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></use>
+    </g>
+
+    <g font-family="Consolas, Menlo, 'Courier New', monospace" font-size="15" text-anchor="middle">
+      <g>
+        <rect x="640" y="70" width="110" height="44" rx="10" fill="#161B22" stroke="#22C55E" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.4s" begin="0s" repeatCount="indefinite"/>
+        </rect>
+        <text x="695" y="97" fill="#E6EDF3">webhook</text>
+      </g>
+      <g>
+        <rect x="800" y="170" width="110" height="44" rx="10" fill="#161B22" stroke="#A855F7" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="2.4s" begin="0s" repeatCount="indefinite"/>
+        </rect>
+        <text x="855" y="197" fill="#E6EDF3">flujo</text>
+      </g>
+      <g>
+        <rect x="960" y="70" width="110" height="44" rx="10" fill="#161B22" stroke="#22C55E" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="1015" y="97" fill="#E6EDF3">api</text>
+      </g>
+      <g>
+        <rect x="1050" y="210" width="110" height="44" rx="10" fill="#161B22" stroke="#A855F7" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="1105" y="237" fill="#E6EDF3">datos</text>
+      </g>
+    </g>
+
+    <g>
+      <circle r="9" fill="#A855F7" filter="url(#blur)" opacity="0.8">
+        <animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#w1"/></animateMotion>
+      </circle>
+      <circle r="4" fill="#E9D5FF">
+        <animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#w1"/></animateMotion>
+      </circle>
+      <circle r="9" fill="#22C55E" filter="url(#blur)" opacity="0.8">
+        <animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite"><mpath href="#w2"/></animateMotion>
+      </circle>
+      <circle r="4" fill="#BBF7D0">
+        <animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite"><mpath href="#w2"/></animateMotion>
+      </circle>
+      <circle r="9" fill="#A855F7" filter="url(#blur)" opacity="0.8">
+        <animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite"><mpath href="#w3"/></animateMotion>
+      </circle>
+      <circle r="4" fill="#E9D5FF">
+        <animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite"><mpath href="#w3"/></animateMotion>
+      </circle>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#30363D"/>
+  </g>
+</svg>
