@@ -61,6 +61,6 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-<sub><code>MI—000</code> &nbsp;·&nbsp; del proceso manual al flujo automático</sub>
+<sub><i>Thought creates; the act inscribes it in time.</i></sub>
 
 </div>
