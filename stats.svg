@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="229" rx="18" fill="#0D1117" stroke="#30363D"/>
+  <text x="40" y="48" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">actividad</text>
+  
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.6s" fill="freeze"/>
+    <text x="40" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#E6EDF3">5</text>
+    <text x="40" y="156" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#E6EDF3">contribuciones</text>
+    <text x="40" y="180" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6E7681">último año</text>
+  </g>
+  
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.6s" fill="freeze"/>
+    <text x="240" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#A855F7">0</text>
+    <text x="240" y="156" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#E6EDF3">racha actual</text>
+    <text x="240" y="180" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6E7681">sin racha activa</text>
+  </g>
+  
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.6s" fill="freeze"/>
+    <text x="440" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#22C55E">3</text>
+    <text x="440" y="156" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#E6EDF3">racha más larga</text>
+    <text x="440" y="180" font-family="Consolas, Menlo, monospace" font-size="13" fill="#6E7681">días seguidos</text>
+  </g>
+  <text x="640" y="48" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">últimos 30 días</text>
+  <line x1="640" y1="186.5" x2="1160" y2="186.5" stroke="#30363D"/>
+  <text x="640" y="210" font-family="Consolas, Menlo, monospace" font-size="12" fill="#6E7681">11 sep</text>
+  <text x="1160" y="210" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="12" fill="#6E7681">10 oct</text>
+    <rect x="643.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="660.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="677.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="695.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="712.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="729.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="747.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="764.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="781.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="799.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="816.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="833.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="851.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="868.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="885.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="903.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="920.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="937.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="955.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="972.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="989.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="1007.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="1024.3" y="186" width="11.3" height="0" rx="3" fill="url(#bar)"><title>3 oct: 1</title><animate attributeName="height" from="0" to="59.0" begin="1.18s" dur="0.6s" fill="freeze"/><animate attributeName="y" from="186" to="127.0" begin="1.18s" dur="0.6s" fill="freeze"/></rect>
+    <rect x="1041.7" y="186" width="11.3" height="0" rx="3" fill="url(#bar)"><title>4 oct: 1</title><animate attributeName="height" from="0" to="59.0" begin="1.22s" dur="0.6s" fill="freeze"/><animate attributeName="y" from="186" to="127.0" begin="1.22s" dur="0.6s" fill="freeze"/></rect>
+    <rect x="1059.0" y="186" width="11.3" height="0" rx="3" fill="url(#bar)"><title>5 oct: 2</title><animate attributeName="height" from="0" to="118.0" begin="1.26s" dur="0.6s" fill="freeze"/><animate attributeName="y" from="186" to="68.0" begin="1.26s" dur="0.6s" fill="freeze"/></rect>
+    <rect x="1076.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="1093.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="1111.0" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="1128.3" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+    <rect x="1145.7" y="184" width="11.3" height="2" rx="1" fill="#30363D"/>
+</svg>
