@@ -23,7 +23,7 @@
 
 ## <img src="assets/icons/terminal.svg" height="36" align="top" alt="" /> &nbsp;01 — Quién soy
 
-Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo soluciones que unen software y hardware: automatización de procesos, APIs e interfaces web, y sistemas electrónicos con microcontroladores, FPGA y redes neuronales. Me interesa llevar una idea hasta el sistema funcionando, integrando cada una de sus partes.
+Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo soluciones que unen software y hardware: automatización de procesos, APIs e interfaces web, y sistemas electrónicos. Me interesa llevar una idea hasta el sistema funcionando, integrando cada una de sus partes.
 
 ```txt
 ▸ Flujos de automatización     n8n · webhooks · agentes de IA
@@ -31,6 +31,7 @@ Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo
 ▸ Frontend e interfaces web    HTML · CSS · JavaScript · WebSocket
 ▸ Electrónica y embebidos      Microcontroladores · FPGA · PCB
 ▸ Redes neuronales             Visión artificial · datos de sensores
+▸ Diseño y modelado 3D         Modelado e impresión 3D
 ```
 
 <details>
@@ -58,9 +59,10 @@ Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo
 | 🟢 Automatización | **Viáticos y tiempos de traslado** | Calcula distancia y tiempo de cada visita con Distance Matrix, tiene cálculo alterno cuando el dato no llega y verifica los requisitos del visitador antes de autorizar el viático. | n8n · Distance Matrix · Teamtailor |
 | 🟢 Agentes de IA | **Asistentes de WhatsApp y de voz** | Conversaciones automatizadas por WhatsApp con Treble y por llamada con bots de Vapi, conectadas a flujos que consultan datos, registran la información y derivan a una persona cuando hace falta. | Treble · Vapi · n8n |
 | 🟣 Electrónica | **Robot diferencial con interfaz web** | Diseño completo del sistema: chasis modelado e impreso en 3D, circuito, firmware en MicroPython e interfaz web en tiempo real. Opera de forma manual, navega a coordenadas o sigue una trayectoria dibujada en pantalla, con odometría e IMU. Publicado en IEEE COMRob 2025. | ESP32 · MicroPython · WebSocket · JavaScript |
+| 🟣 Modelado 3D | **Diseño e impresión 3D** | Piezas y objetos diseñados desde cero e impresos por cuenta propia, como trabajo independiente: de la idea al objeto físico, con modelado paramétrico y orgánico, y laminado para impresión. | Shapr3D · Blender · Nomad Sculpt · Bambu Studio |
 | 🟣 Redes neuronales | **Visión artificial y redes pequeñas** | Una ESP32-CAM envía imágenes a una CNN que decide si activar o detener un robot, con 85 % a 90 % de eficacia sobre una base de datos propia. También entrené redes neuronales compactas que interpretan información de sensores. | ESP32-CAM · MATLAB · CNN |
 
-<sub>🟢 trabajo profesional en producción · 🟣 proyectos académicos y de investigación. El código de los proyectos profesionales es privado.</sub>
+<sub>🟢 trabajo profesional en producción · 🟣 proyectos académicos, de investigación y trabajo independiente. El código de los proyectos profesionales es privado.</sub>
 
 ## <img src="assets/icons/stack.svg" height="36" align="top" alt="" /> &nbsp;04 — Stack
 
@@ -81,18 +83,15 @@ Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo
 <img src="https://img.shields.io/badge/Google_Workspace-161B22?style=for-the-badge&logo=google&logoColor=6EE7B7" alt="Google Workspace" />
 <img src="https://img.shields.io/badge/Jira-161B22?style=for-the-badge&logo=jira&logoColor=A855F7" alt="Jira" />
 <img src="https://img.shields.io/badge/Flet-161B22?style=for-the-badge" alt="Flet" />
-<img src="https://img.shields.io/badge/MongoDB-161B22?style=for-the-badge&logo=mongodb&logoColor=2EE65C" alt="MongoDB" />
 <img src="https://img.shields.io/badge/WebSocket-161B22?style=for-the-badge" alt="WebSocket" />
 <img src="https://img.shields.io/badge/ESP32-161B22?style=for-the-badge&logo=espressif&logoColor=2EE65C" alt="ESP32" />
 <img src="https://img.shields.io/badge/MicroPython-161B22?style=for-the-badge&logo=micropython&logoColor=6EE7B7" alt="MicroPython" />
-<img src="https://img.shields.io/badge/C++-161B22?style=for-the-badge&logo=cplusplus&logoColor=2EE65C" alt="C++" />
 <img src="https://img.shields.io/badge/Proteus-161B22?style=for-the-badge&logo=proteus&logoColor=A855F7" alt="Proteus" />
 <img src="https://img.shields.io/badge/MATLAB-161B22?style=for-the-badge" alt="MATLAB" />
 <img src="https://img.shields.io/badge/VHDL-161B22?style=for-the-badge" alt="VHDL" />
 <img src="https://img.shields.io/badge/SystemVerilog-161B22?style=for-the-badge" alt="SystemVerilog" />
 <img src="https://img.shields.io/badge/Vivado-161B22?style=for-the-badge&logo=amd&logoColor=2EE65C" alt="Vivado" />
 <img src="https://img.shields.io/badge/Quartus-161B22?style=for-the-badge&logo=intel&logoColor=6EE7B7" alt="Quartus" />
-<img src="https://img.shields.io/badge/Blender-161B22?style=for-the-badge&logo=blender&logoColor=2EE65C" alt="Blender" />
 <img src="https://img.shields.io/badge/Nomad_Sculpt-161B22?style=for-the-badge" alt="Nomad Sculpt" />
 <img src="https://img.shields.io/badge/Shapr3D-161B22?style=for-the-badge" alt="Shapr3D" />
 <img src="https://img.shields.io/badge/Bambu_Studio-161B22?style=for-the-badge&logo=bambulab&logoColor=6EE7B7" alt="Bambu Studio" />
