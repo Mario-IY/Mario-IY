@@ -8,6 +8,12 @@
 
 </h1>
 
+<sub>Ingeniero en Telecomunicaciones, Sistemas y Electrónica · UNAM</sub>
+
+<p>
+<a href="https://www.linkedin.com/in/mario-ibarra-b9728b369"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMkVFNjVDIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTE2IDhhNiA2IDAgMCAxIDYgNnY3aC00di03YTIgMiAwIDAgMC0yLTIgMiAyIDAgMCAwLTIgMnY3aC00di03YTYgNiAwIDAgMSA2LTZ6Ii8+PHJlY3QgeD0iMiIgeT0iOSIgd2lkdGg9IjQiIGhlaWdodD0iMTIiLz48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiIvPjwvc3ZnPg==" alt="LinkedIn" /></a>
+</p>
+
 <p>
 <img src="https://img.shields.io/badge/automatización-0D1117?style=for-the-badge&logo=n8n&logoColor=2EE65C" alt="automatización" />
 <img src="https://img.shields.io/badge/backend-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=6EE7B7" alt="backend" />
@@ -23,7 +29,7 @@
 
 ## <img src="assets/icons/terminal.svg" height="36" align="top" alt="" /> &nbsp;01 — Quién soy
 
-Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo soluciones que unen software y hardware: automatización de procesos, APIs e interfaces web, y sistemas electrónicos. Me interesa llevar una idea hasta el sistema funcionando, integrando cada una de sus partes.
+Desarrollo soluciones que unen software y hardware: automatización de procesos, APIs e interfaces web, y sistemas electrónicos. Me interesa llevar una idea hasta el sistema funcionando, integrando cada una de sus partes.
 
 ```txt
 ▸ Flujos de automatización     n8n · webhooks · agentes de IA
