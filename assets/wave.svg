@@ -8,9 +8,6 @@
     <path id="w" d="M0 70 C 150 20, 300 120, 450 70 S 750 20, 900 70 S 1050 120, 1200 70 C 1350 20, 1500 120, 1650 70 S 1950 20, 2100 70 S 2250 120, 2400 70 V 140 H 0 Z"/>
   </defs>
   <g fill="url(#g1)">
-    <use href="#w" opacity="0.18">
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="-1200 6" dur="18s" repeatCount="indefinite"/>
-    </use>
     <use href="#w" opacity="0.35" transform="translate(0 22)">
       <animateTransform attributeName="transform" type="translate" from="-1200 22" to="0 22" dur="12s" repeatCount="indefinite"/>
     </use>

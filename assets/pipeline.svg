@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290">
   <defs>
     <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#A855F7"/>
@@ -9,69 +9,59 @@
     </filter>
   </defs>
 
-  <rect x="0.5" y="0.5" width="1199" height="209" rx="18" fill="#0D1117" stroke="#30363D"/>
+  <rect x="0.5" y="0.5" width="1199" height="289" rx="18" fill="#0D1117" stroke="#30363D"/>
 
-  <line x1="140" y1="88" x2="1060" y2="88" stroke="#30363D" stroke-width="2"/>
-  <line x1="140" y1="88" x2="1060" y2="88" stroke="url(#track)" stroke-width="2" stroke-dasharray="920" stroke-dashoffset="920">
-    <animate attributeName="stroke-dashoffset" values="920;0;0" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
+  <line x1="200" y1="76" x2="1000" y2="76" stroke="#30363D" stroke-width="2"/>
+  <line x1="200" y1="76" x2="1000" y2="76" stroke="url(#track)" stroke-width="2" stroke-dasharray="800" stroke-dashoffset="800">
+    <animate attributeName="stroke-dashoffset" values="800;0;0" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
   </line>
 
-  <circle cy="88" r="10" fill="#2EE65C" filter="url(#blur)">
-    <animate attributeName="cx" values="140;1060;1060" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
+  <circle cy="76" r="10" fill="#2EE65C" filter="url(#blur)">
+    <animate attributeName="cx" values="200;1000;1000" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
   </circle>
 
   <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
     <g>
-      <circle cx="140" cy="88" r="16" fill="#161B22" stroke="#A855F7" stroke-width="2"/>
-      <circle cx="140" cy="88" r="6" fill="#A855F7"/>
-      <text x="140" y="44" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">01</text>
-      <text x="140" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Entender</text>
-      <text x="140" y="162" font-size="14" fill="#8B949E">el proceso real</text>
+      <circle cx="200" cy="76" r="16" fill="#161B22" stroke="#A855F7" stroke-width="2"/>
+      <circle cx="200" cy="76" r="6" fill="#A855F7"/>
+      <text x="200" y="38" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">01</text>
+      <text x="200" y="126" font-size="20" font-weight="700" fill="#E6EDF3">Entiendo</text>
+      <text x="200" y="154" font-size="14" fill="#8B949E">El proceso real antes que el código:</text>
+      <text x="200" y="174" font-size="14" fill="#8B949E">quién participa, en qué orden,</text>
+      <text x="200" y="194" font-size="14" fill="#8B949E">qué excepciones tiene y qué datos mueve.</text>
+      <rect x="125" y="224" width="150" height="30" rx="15" fill="#161B22" stroke="#A855F7" stroke-opacity="0.6"/>
+      <text x="200" y="244" font-family="Consolas, Menlo, monospace" font-size="13" fill="#D8B4FE">simple primero</text>
     </g>
     <g>
-      <circle cx="370" cy="88" r="16" fill="#161B22" stroke="#30363D" stroke-width="2">
-        <animate attributeName="stroke" values="#30363D;#30363D;#A855F7;#A855F7;#30363D" keyTimes="0;0.21;0.23;0.95;1" dur="6s" repeatCount="indefinite"/>
+      <circle cx="600" cy="76" r="16" fill="#161B22" stroke="#30363D" stroke-width="2">
+        <animate attributeName="stroke" values="#30363D;#30363D;#6EE7B7;#6EE7B7;#30363D" keyTimes="0;0.43;0.45;0.95;1" dur="6s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="370" cy="88" r="6" fill="#30363D">
-        <animate attributeName="fill" values="#30363D;#30363D;#B07CF0;#B07CF0;#30363D" keyTimes="0;0.21;0.23;0.95;1" dur="6s" repeatCount="indefinite"/>
+      <circle cx="600" cy="76" r="6" fill="#30363D">
+        <animate attributeName="fill" values="#30363D;#30363D;#6EE7B7;#6EE7B7;#30363D" keyTimes="0;0.43;0.45;0.95;1" dur="6s" repeatCount="indefinite"/>
       </circle>
-      <text x="370" y="44" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">02</text>
-      <text x="370" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Diseñar</text>
-      <text x="370" y="162" font-size="14" fill="#8B949E">el flujo y los datos</text>
+      <text x="600" y="38" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">02</text>
+      <text x="600" y="126" font-size="20" font-weight="700" fill="#E6EDF3">Construyo</text>
+      <text x="600" y="154" font-size="14" fill="#8B949E">En piezas pequeñas y reutilizables,</text>
+      <text x="600" y="174" font-size="14" fill="#8B949E">probadas en un entorno de test</text>
+      <text x="600" y="194" font-size="14" fill="#8B949E">antes de pasar a producción.</text>
+      <rect x="505" y="224" width="190" height="30" rx="15" fill="#161B22" stroke="#6EE7B7" stroke-opacity="0.6"/>
+      <text x="600" y="244" font-family="Consolas, Menlo, monospace" font-size="13" fill="#A7F3D0">probar antes de publicar</text>
     </g>
     <g>
-      <circle cx="600" cy="88" r="16" fill="#161B22" stroke="#30363D" stroke-width="2">
-        <animate attributeName="stroke" values="#30363D;#30363D;#7C8CB8;#7C8CB8;#30363D" keyTimes="0;0.42;0.44;0.95;1" dur="6s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="600" cy="88" r="6" fill="#30363D">
-        <animate attributeName="fill" values="#30363D;#30363D;#7C8CB8;#7C8CB8;#30363D" keyTimes="0;0.42;0.44;0.95;1" dur="6s" repeatCount="indefinite"/>
-      </circle>
-      <text x="600" y="44" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">03</text>
-      <text x="600" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Construir</text>
-      <text x="600" y="162" font-size="14" fill="#8B949E">y probar en test</text>
-    </g>
-    <g>
-      <circle cx="830" cy="88" r="16" fill="#161B22" stroke="#30363D" stroke-width="2">
-        <animate attributeName="stroke" values="#30363D;#30363D;#4FB07F;#4FB07F;#30363D" keyTimes="0;0.63;0.65;0.95;1" dur="6s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="830" cy="88" r="6" fill="#30363D">
-        <animate attributeName="fill" values="#30363D;#30363D;#4FB07F;#4FB07F;#30363D" keyTimes="0;0.63;0.65;0.95;1" dur="6s" repeatCount="indefinite"/>
-      </circle>
-      <text x="830" y="44" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">04</text>
-      <text x="830" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Producción</text>
-      <text x="830" y="162" font-size="14" fill="#8B949E">y monitoreo</text>
-    </g>
-    <g>
-      <circle cx="1060" cy="88" r="16" fill="#161B22" stroke="#30363D" stroke-width="2">
+      <circle cx="1000" cy="76" r="16" fill="#161B22" stroke="#30363D" stroke-width="2">
         <animate attributeName="stroke" values="#30363D;#30363D;#2EE65C;#2EE65C;#30363D" keyTimes="0;0.84;0.86;0.95;1" dur="6s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="1060" cy="88" r="6" fill="#30363D">
+      <circle cx="1000" cy="76" r="6" fill="#30363D">
         <animate attributeName="fill" values="#30363D;#30363D;#2EE65C;#2EE65C;#30363D" keyTimes="0;0.84;0.86;0.95;1" dur="6s" repeatCount="indefinite"/>
       </circle>
-      <text x="1060" y="44" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">05</text>
-      <text x="1060" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Documentar</text>
-      <text x="1060" y="162" font-size="14" fill="#8B949E">cada versión</text>
+      <text x="1000" y="38" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">03</text>
+      <text x="1000" y="126" font-size="20" font-weight="700" fill="#E6EDF3">Entrego</text>
+      <text x="1000" y="154" font-size="14" fill="#8B949E">Documentado: cada versión con su</text>
+      <text x="1000" y="174" font-size="14" fill="#8B949E">diagrama y sus cambios, y con</text>
+      <text x="1000" y="194" font-size="14" fill="#8B949E">monitoreo después de salir.</text>
+      <rect x="925" y="224" width="150" height="30" rx="15" fill="#161B22" stroke="#2EE65C" stroke-opacity="0.6"/>
+      <text x="1000" y="244" font-family="Consolas, Menlo, monospace" font-size="13" fill="#86EFAC">versiones claras</text>
     </g>
   </g>
 </svg>
