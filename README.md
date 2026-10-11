@@ -40,7 +40,7 @@ Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo
 <br/>
 
 - **Web Interface Design for the Intelligent Management of a Differential Robot Applied to IoT Systems** — XXVII Robotics Mexican Congress (COMRob), 2025. Interfaz web en tiempo real sobre ESP32 y WebSocket, con control manual, navegación autónoma y seguimiento de trayectorias. [DOI](https://doi.org/10.1109/COMRob68109.2025.11264804)
-- **Red neuronal convolucional para control de activación y paro de un dispositivo electrónico** — visión artificial con ESP32-CAM y una CNN entrenada con base de datos propia, con una eficacia del 85 % al 90 %.
+- **Red neuronal convolucional para control de activación y paro de un dispositivo electrónico** — visión artificial con ESP32-CAM y una CNN entrenada con base de datos propia, con una eficacia del 85 % al 90 %. Pädi, Boletín Científico de Ciencias Básicas e Ingenierías del ICBI, vol. 14, núm. 27, 2026.
 
 </details>
 
@@ -58,9 +58,9 @@ Ingeniero en Telecomunicaciones, Sistemas y Electrónica por la UNAM. Desarrollo
 | 🟢 Automatización | **Descarga de archivos por orden de trabajo** | El portal funciona como puente transparente hacia un flujo que reúne los archivos de cada orden y los entrega paginados en bloques de 20 MB, sin exponer identificadores internos. | n8n · Drive · portal web |
 | 🟢 Automatización | **Viáticos y tiempos de traslado** | Calcula distancia y tiempo de cada visita con Distance Matrix, tiene cálculo alterno cuando el dato no llega y verifica los requisitos del visitador antes de autorizar el viático. | n8n · Distance Matrix · Teamtailor |
 | 🟢 Agentes de IA | **Asistentes de WhatsApp y de voz** | Conversaciones automatizadas por WhatsApp con Treble y por llamada con bots de Vapi, conectadas a flujos que consultan datos, registran la información y derivan a una persona cuando hace falta. | Treble · Vapi · n8n |
-| 🟣 Electrónica | **Robot diferencial con interfaz web** | Diseño completo del sistema: chasis modelado e impreso en 3D, circuito, firmware en MicroPython e interfaz web en tiempo real. Opera de forma manual, navega a coordenadas o sigue una trayectoria dibujada en pantalla, con odometría e IMU. Publicado en IEEE COMRob 2025. | ESP32 · MicroPython · WebSocket · JavaScript |
+| 🟣 Electrónica | **Robot diferencial con interfaz web** | Diseño completo del sistema: chasis modelado e impreso en 3D, circuito, firmware en MicroPython e interfaz web en tiempo real. Opera de forma manual, navega a coordenadas o sigue una trayectoria dibujada en pantalla, con odometría e IMU.<br/><sub>Publicado en IEEE COMRob 2025.</sub> | ESP32 · MicroPython · WebSocket · JavaScript |
 | 🟣 Modelado 3D | **Diseño e impresión 3D** | Piezas y objetos diseñados desde cero e impresos por cuenta propia, como trabajo independiente: de la idea al objeto físico, con modelado paramétrico y orgánico, y laminado para impresión. | Shapr3D · Blender · Nomad Sculpt · Bambu Studio |
-| 🟣 Redes neuronales | **Visión artificial y redes pequeñas** | Una ESP32-CAM envía imágenes a una CNN que decide si activar o detener un robot, con 85 % a 90 % de eficacia sobre una base de datos propia. También entrené redes neuronales compactas que interpretan información de sensores. | ESP32-CAM · MATLAB · CNN |
+| 🟣 Redes neuronales | **Visión artificial y redes pequeñas** | Una ESP32-CAM envía imágenes a una CNN que decide si activar o detener un robot, con 85 % a 90 % de eficacia sobre una base de datos propia. También entrené redes neuronales compactas que interpretan información de sensores.<br/><sub>Publicado en Pädi, Boletín Científico de Ciencias Básicas e Ingenierías del ICBI, vol. 14, núm. 27, 2026.</sub> | ESP32-CAM · MATLAB · CNN |
 
 <sub>🟢 trabajo profesional en producción · 🟣 proyectos académicos, de investigación y trabajo independiente. El código de los proyectos profesionales es privado.</sub>
 
