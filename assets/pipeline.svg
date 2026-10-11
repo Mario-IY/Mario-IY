@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#A855F7"/>
-      <stop offset="1" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#2EE65C"/>
     </linearGradient>
     <filter id="blur" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="4"/>
@@ -16,7 +16,7 @@
     <animate attributeName="stroke-dashoffset" values="920;0;0" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
   </line>
 
-  <circle cy="88" r="10" fill="#22C55E" filter="url(#blur)">
+  <circle cy="88" r="10" fill="#2EE65C" filter="url(#blur)">
     <animate attributeName="cx" values="140;1060;1060" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
   </circle>
@@ -64,10 +64,10 @@
     </g>
     <g>
       <circle cx="1060" cy="88" r="16" fill="#161B22" stroke="#30363D" stroke-width="2">
-        <animate attributeName="stroke" values="#30363D;#30363D;#22C55E;#22C55E;#30363D" keyTimes="0;0.84;0.86;0.95;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#30363D;#30363D;#2EE65C;#2EE65C;#30363D" keyTimes="0;0.84;0.86;0.95;1" dur="6s" repeatCount="indefinite"/>
       </circle>
       <circle cx="1060" cy="88" r="6" fill="#30363D">
-        <animate attributeName="fill" values="#30363D;#30363D;#22C55E;#22C55E;#30363D" keyTimes="0;0.84;0.86;0.95;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="fill" values="#30363D;#30363D;#2EE65C;#2EE65C;#30363D" keyTimes="0;0.84;0.86;0.95;1" dur="6s" repeatCount="indefinite"/>
       </circle>
       <text x="1060" y="44" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">05</text>
       <text x="1060" y="138" font-size="17" font-weight="700" fill="#E6EDF3">Documentar</text>

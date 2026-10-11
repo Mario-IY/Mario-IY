@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-  <path d="M20 26 L36 19 L20 12 L4 19 Z" fill="#161B22" stroke="#22C55E" stroke-width="2" stroke-linejoin="round">
+  <path d="M20 26 L36 19 L20 12 L4 19 Z" fill="#161B22" stroke="#2EE65C" stroke-width="2" stroke-linejoin="round">
     <animateTransform attributeName="transform" type="translate" values="0 6;0 8;0 6" dur="2s" repeatCount="indefinite"/>
   </path>
   <path d="M20 26 L36 19 L20 12 L4 19 Z" fill="#161B22" stroke="#7C8CB8" stroke-width="2" stroke-linejoin="round">

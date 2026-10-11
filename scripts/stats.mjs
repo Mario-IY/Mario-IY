@@ -87,15 +87,15 @@ const streakSub = current > 0 ? `desde ${label(days[i + 1].date)}` : 'sin racha 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
   <defs>
     <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0" stop-color="#22C55E"/>
-      <stop offset="1" stop-color="#A855F7"/>
+      <stop offset="0" stop-color="#2EE65C"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
     </linearGradient>
   </defs>
   <rect x="0.5" y="0.5" width="1199" height="229" rx="18" fill="#0D1117" stroke="#30363D"/>
   <text x="40" y="48" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">actividad</text>
   ${metric(40, total, '#E6EDF3', 'contribuciones', 'último año', 0)}
-  ${metric(240, current, '#A855F7', 'racha actual', streakSub, 0.2)}
-  ${metric(440, longest, '#22C55E', 'racha más larga', 'días seguidos', 0.4)}
+  ${metric(240, current, '#6EE7B7', 'racha actual', streakSub, 0.2)}
+  ${metric(440, longest, '#2EE65C', 'racha más larga', 'días seguidos', 0.4)}
   <text x="${chartX}" y="48" font-family="Consolas, Menlo, monospace" font-size="14" fill="#6E7681">últimos 30 días</text>
   <line x1="${chartX}" y1="${baseY + 0.5}" x2="${chartX + chartW}" y2="${baseY + 0.5}" stroke="#30363D"/>
   <text x="${chartX}" y="210" font-family="Consolas, Menlo, monospace" font-size="12" fill="#6E7681">${label(last[0].date)}</text>
