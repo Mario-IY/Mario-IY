@@ -60,7 +60,7 @@ Desarrollo soluciones que unen software y hardware: automatización de procesos,
 |---|---|---|---|
 | 🟢 Frontend | **Portal de levantamientos y documentos** | Aplicación web donde el personal en campo captura levantamientos y los equipos consultan documentos. Vistas por rol, carga de archivos, conexión directa con flujos de n8n y despliegue automático en cada versión. | Node.js · Tailwind · n8n |
 | 🟢 Backend | **API de solicitudes y visitadores** | Servicio que gobierna el ciclo completo de una solicitud: alta, estados, órdenes de trabajo y asignación de visitadores. Concentra las reglas de negocio que consumen el portal y los flujos. | Node.js · REST · base de datos |
-| 🟢 Automatización | **Reclutamiento automatizado** | Un solo webhook recibe todos los eventos del sistema de reclutamiento y los enruta por recurso, vacante y acción hacia subflujos. Crea carpetas en Drive por tipo de vacante, valida requisitos en vivo y avisa por Slack. | n8n · Teamtailor · Drive · Slack |
+| 🟢 Automatización | **Reclutamiento automatizado** | Un solo webhook recibe todos los eventos del sistema de reclutamiento y los enruta por recurso, vacante y acción hacia subflujos. Mantiene en Drive las carpetas de vacantes y candidatos según su etapa y sus ediciones, valida requisitos en vivo y avisa por Slack. | n8n · Teamtailor · Drive · Slack |
 | 🟢 Automatización | **Descarga de archivos por orden de trabajo** | El portal funciona como puente transparente hacia un flujo que reúne los archivos de cada orden y los entrega paginados en bloques de 20 MB, sin exponer identificadores internos. | n8n · Drive · portal web |
 | 🟢 Automatización | **Viáticos y tiempos de traslado** | Calcula distancia y tiempo de cada visita con Distance Matrix, tiene cálculo alterno cuando el dato no llega y verifica los requisitos del visitador antes de autorizar el viático. | n8n · Distance Matrix · Teamtailor |
 | 🟢 Agentes de IA | **Asistentes de WhatsApp y de voz** | Conversaciones automatizadas por WhatsApp con Treble y por llamada con bots de Vapi, conectadas a flujos que consultan datos, registran la información y derivan a una persona cuando hace falta. | Treble · Vapi · n8n |
@@ -74,13 +74,14 @@ Desarrollo soluciones que unen software y hardware: automatización de procesos,
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,python,cpp,mongodb,docker,git,github,linux,blender&theme=dark" alt="stack" />
+<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,nodejs,npm,express,python,cpp,mongodb,docker,git,github,vscode,postman,obsidian,linux,bash,blender&theme=dark&perline=10" alt="stack" />
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/n8n-161B22?style=for-the-badge&logo=n8n&logoColor=2EE65C" alt="n8n" />
 <img src="https://img.shields.io/badge/webhooks-161B22?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMkVFNjVDIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTQuODc2IDEzLjYxYTQgNCAwIDEgMCA2LjEyNCAzLjM5aDYiLz48cGF0aCBkPSJNMTUuMDY2IDIwLjUwMmE0IDQgMCAxIDAgMS45MzQgLTcuNTAyYy0uNzA2IDAgLTEuNDI0IC4xNzkgLTIgLjVsLTMgLTUuNSIvPjxwYXRoIGQ9Ik0xNiA4YTQgNCAwIDEgMCAtOCAwYzAgMS41MDYgLjc3IDIuODE4IDIgMy41bC0zIDUuNSIvPjwvc3ZnPg==" alt="webhooks" />
 <img src="https://img.shields.io/badge/REST_APIs-161B22?style=for-the-badge&logo=swagger&logoColor=6EE7B7" alt="REST APIs" />
+<img src="https://img.shields.io/badge/Google_Drive_API-161B22?style=for-the-badge&logo=googledrive&logoColor=6EE7B7" alt="Google Drive API" />
 <img src="https://img.shields.io/badge/Slack-161B22?style=for-the-badge" alt="Slack" />
 <img src="https://img.shields.io/badge/Treble-161B22?style=for-the-badge" alt="Treble" />
 <img src="https://img.shields.io/badge/Vapi-161B22?style=for-the-badge" alt="Vapi" />
@@ -88,6 +89,9 @@ Desarrollo soluciones que unen software y hardware: automatización de procesos,
 <img src="https://img.shields.io/badge/WhatsApp_API-161B22?style=for-the-badge&logo=whatsapp&logoColor=2EE65C" alt="WhatsApp API" />
 <img src="https://img.shields.io/badge/Google_Workspace-161B22?style=for-the-badge&logo=google&logoColor=6EE7B7" alt="Google Workspace" />
 <img src="https://img.shields.io/badge/Jira-161B22?style=for-the-badge&logo=jira&logoColor=A855F7" alt="Jira" />
+<img src="https://img.shields.io/badge/ngrok-161B22?style=for-the-badge&logo=ngrok&logoColor=2EE65C" alt="ngrok" />
+<img src="https://img.shields.io/badge/Antigravity-161B22?style=for-the-badge" alt="Antigravity" />
+<img src="https://img.shields.io/badge/LLMs-161B22?style=for-the-badge" alt="LLMs" />
 <img src="https://img.shields.io/badge/Flet-161B22?style=for-the-badge" alt="Flet" />
 <img src="https://img.shields.io/badge/WebSocket-161B22?style=for-the-badge" alt="WebSocket" />
 <img src="https://img.shields.io/badge/ESP32-161B22?style=for-the-badge&logo=espressif&logoColor=2EE65C" alt="ESP32" />
