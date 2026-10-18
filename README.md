@@ -10,15 +10,15 @@
 
 Ingeniero en Telecomunicaciones, Sistemas y Electrónica · UNAM
 
+IA • Sistemas Inteligentes
+
 <p>
 <a href="https://www.linkedin.com/in/mario-ibarra-b9728b369"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMkVFNjVDIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTE2IDhhNiA2IDAgMCAxIDYgNnY3aC00di03YTIgMiAwIDAgMC0yLTIgMiAyIDAgMCAwLTIgMnY3aC00di03YTYgNiAwIDAgMSA2LTZ6Ii8+PHJlY3QgeD0iMiIgeT0iOSIgd2lkdGg9IjQiIGhlaWdodD0iMTIiLz48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiIvPjwvc3ZnPg==" alt="LinkedIn" /></a>
 <img src="https://komarev.com/ghpvc/?username=Mario-IY&color=2EE65C&style=for-the-badge&label=visitas" alt="visitas" />
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/automatización-0D1117?style=for-the-badge&logo=n8n&logoColor=2EE65C" alt="automatización" />
-<img src="https://img.shields.io/badge/backend-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=6EE7B7" alt="backend" />
-<img src="https://img.shields.io/badge/frontend-0D1117?style=for-the-badge&logo=html5&logoColor=2EE65C" alt="frontend" />
+<img src="https://img.shields.io/badge/sistemas_inteligentes-0D1117?style=for-the-badge&logo=n8n&logoColor=2EE65C" alt="sistemas inteligentes" />
 <img src="https://img.shields.io/badge/electrónica-0D1117?style=for-the-badge&logo=espressif&logoColor=A855F7" alt="electrónica" />
 <img src="https://img.shields.io/badge/telecomunicaciones-0D1117?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNkVFN0I3IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTQuOSAxNi4xQzEgMTIuMiAxIDUuOCA0LjkgMS45Ii8+PHBhdGggZD0iTTcuOCA0LjdhNi4xNCA2LjE0IDAgMCAwLS44IDcuNSIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iOSIgcj0iMiIvPjxwYXRoIGQ9Ik0xNi4yIDQuOGMyIDIgMi4yNiA1LjExLjggNy40NyIvPjxwYXRoIGQ9Ik0xOS4xIDEuOWE5Ljk2IDkuOTYgMCAwIDEgMCAxNC4xIi8+PHBhdGggZD0iTTkuNSAxOGg1Ii8+PHBhdGggZD0ibTggMjIgNC0xMSA0IDExIi8+PC9zdmc+" alt="telecomunicaciones" />
 </p>
@@ -124,6 +124,6 @@ Desarrollo soluciones que unen software y hardware: automatización de procesos,
 
 <sub><i>Thought creates; the act inscribes it in time.</i></sub>
 
-<img src="assets/wave.svg" width="100%" height="120" alt="" />
+<img src="assets/wave.svg" width="100%" height="200" alt="" />
 
 </div>
