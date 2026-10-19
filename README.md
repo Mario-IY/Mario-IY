@@ -12,6 +12,7 @@ Ingeniero en Telecomunicaciones, Sistemas y Electrónica · UNAM
 
 <p>
 <a href="https://www.linkedin.com/in/mario-ibarra-b9728b369"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMkVFNjVDIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTE2IDhhNiA2IDAgMCAxIDYgNnY3aC00di03YTIgMiAwIDAgMC0yLTIgMiAyIDAgMCAwLTIgMnY3aC00di03YTYgNiAwIDAgMSA2LTZ6Ii8+PHJlY3QgeD0iMiIgeT0iOSIgd2lkdGg9IjQiIGhlaWdodD0iMTIiLz48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiIvPjwvc3ZnPg==" alt="LinkedIn" /></a>
+<a href="https://orcid.org/0009-0000-4600-1250"><img src="https://img.shields.io/badge/ORCID-161B22?style=for-the-badge&logo=orcid&logoColor=2EE65C" alt="ORCID" /></a>
 <img src="https://komarev.com/ghpvc/?username=Mario-IY&color=2EE65C&style=for-the-badge&label=visitas" alt="visitas" />
 </p>
 
